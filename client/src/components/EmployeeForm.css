@@ -1,0 +1,47 @@
+.emp-form label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:black;
+    background-color: white; 
+    border: 1.2px solid black;  
+}
+.emp-form {
+    max-width: 510px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+.emp-form input,
+.emp-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.emp-form .error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -8px;
+    margin-bottom: 10px;
+}
+
+.emp-form .success {
+    color: green;
+    font-size: 1em;
+    margin-top: 10px;
+}
+.emp-form button{
+    color:white;
+    display: inline-block;
+    border: 1px solid rgb(7, 7, 27);
+    border-radius: 3px;
+    background-color: blue;
+    padding:8px;
+
+
+}
